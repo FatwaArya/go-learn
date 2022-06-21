@@ -14,6 +14,7 @@ type Person struct {
 	Name string
 }
 
+//jika nama method sama seperti nama method interface, maka kita bisa menggunakan interface untuk mengimplementasikan method
 func (person Person) GetName() string {
 	return person.Name
 }
